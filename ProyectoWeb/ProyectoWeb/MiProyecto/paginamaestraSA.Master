@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="paginamaestraSA.master.cs" Inherits="ProyectoWeb.MiProyecto.paginamaestraSA" %>
+<!--
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>-->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Santos Automocion</title>
+<meta charset="UTF-8">
+<!--[if IE]><![endif]-->
+<meta name="description" content="taller reparacion automoviles">
+<meta name="keywords" content="coche reparar taller automovil">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+<script src="js/scripts.js"></script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+    <form runat="server" id="form1">
+<div class=" darkbg clearfix"><!--container -->
+	<div id="headercont" class="clearfix">
+		<div id="headerlogo">
+			<!--<h1><a title="" href="">Taller Santos Automocion</a></h1>-->
+			<a href="principal.aspx"><img alt="" src="images/rsz_header.jpg" width="70%"height="100"/></a>
+		</div>
+		<!--<div id="headerright">
+            <p><span>Telefono:</span> 93.661.77.33 </p>
+            <p><span>Email:</span>info@santosautomocion.com</p>-->
+		</div>
+	</div>
+        <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolder2">
+            <div class="container NaranjaOscuro clearfix"><!--lightbluebg-->
+                <div id="menucont" class="clearfix">
+                    <div class="menu">
+                        <ul>
+                            <li class="active"><a title="" href="principal.aspx">Inicio</a></li>
+                            <li><a title="" href="#">Quienes somos</a></li>
+                            <li><a title="" href="#">Servicios</a></li>
+                            <!--<li><a title="" href="#">Blog</a></li>-->
+                            <li><a title="" href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </asp:ContentPlaceHolder>
+<div class="container clearfix">
+	<div id="maincont" class="clearfix">
+		
+        <asp:ContentPlaceHolder runat="server" ID="cuadroizq">
+        
+        <div id="mainleft">
+			<h1>Especialistas en diagnóstico y reparacion de vehículos</h1>
+            <p>Con nosotros podrás hacer las revisiones oficiales. Tenemos analizador de gases. 
+				Toda la equipación necesaria para el diagnóstico y reparación de todo tipo de averías
+					Somos un taller libre y no estamos ligados a fabricantes, marcas de recambios, ni compañías de seguros.
+					
+				</p>
+            <p>¿Necesitas tu coche diariamente? ¡No te preocupes! Tenemos un vehículo de substitución preparado para tí.</p>
+            <div align="center"><a href="" ><img  src="images/vehiculo_subs.jpg" width="300"height="100"/ ></a></div>
+            <br />
+			<p><strong>Visítanos y adaptaremos el presupuesto a tu caso en concreto exigiendo siempre calidad en cada servicio.</strong></p>
+			<hr />
+            <h2>Especialistas en chapa i pintura</h2>
+            <p>Tenemos un acuerdo de colaboración con Retamacars para recepcionar cualquier servicio en ambos centros.
+			Por esto, podemos trabajar con todas las compañías.
+			Tratamiento de secado de pintura al horno.
+			</p>
+            <p> Además, se hará una limpieza completa con todos los servicios.
+				Ser reparan todo tipo de siniestros.
+				La equipación i los productos son de primeras marcas, como por ejemplo: DuPont, CMC, Vulvo...</p>
+				<p><strong>¡Pídenos presupuesto sin compromiso!</strong></p>
+        </div>
+         
+</asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolder3">
+		<div id="mainright">
+            <h3>Otros Links</h3>
+            <ul class="otherlinks clearfix">
+            	<li><a title="" href="#" rel="external">Cómo llegar</a></li>
+                <li><a title="" href="#" rel="external">Sugerencias</a></li>
+                <!--<li><a title="" href="#" rel="external">Side Link 3</a></li>-->
+            </ul>
+            <div class="sidecont clearfix">
+                <div class="sidesection clearfix">
+                    <h4><a title="" href="ZonaSeguraUsers/PedirHora.aspx">Pedir Hora</a></h4>
+                    <div class="sidetop">
+                        <a class="hoverlink" title="" href="ZonaSeguraUsers/PedirHora.aspx"><img alt="" src="images/clock_350.jpg" /><div class="overlay link"></div></a>
+                    </div>
+                    <div class="sidebottom">
+                        <p>Pide hora Online</p>
+                    </div>
+                </div>
+                <div class="sidesection clearfix">
+                    <h4><a title="" href="Presupuestos.aspx">Presupuestos Básicos</a></h4>
+                    <div class="sidetop">
+                        <a class="hoverlink" title="" href="Presupuestos.aspx"><img alt="" src="images/revisiones_350_150.jpg" /><div class="overlay link"></div></a>
+                    </div>
+                    <div class="sidebottom">
+                        <p>Consulta nuestros presupuestos</p>
+                    </div>
+                </div>
+			</div>
+        </div>
+            </asp:ContentPlaceHolder>
+	</div>
+</div>
+<div class="container clearfix">
+    <div id="footercont" class="clearfix">
+        <!--<p>Your Website Name &copy; 2012 - Free Website Template by <a title="derby website design" href="http://www.derby-webdesign.co.uk/" rel="external">Derby Web Design</a></p>-->
+    </div>
+</div>
+        </form>
+</body>
+</html>
+   

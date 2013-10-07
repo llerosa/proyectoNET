@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="contextoTaller">
+  <DataContextMoniker Name="/contextoTallerDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8ecb9adc-61b6-4deb-88ed-226f899f6074" isExpanded="false" absoluteBounds="1.375, 1.125, 2, 0.45">
+      <DataClassMoniker Name="/contextoTallerDataContext/HORASOCUPADA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d0922b57-4573-4f33-a9be-a7d2d2deb8e4" absoluteBounds="1.3900000000000001, 1.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c9f56024-ff54-4e8a-abd1-fda2e29d7814" isExpanded="false" absoluteBounds="2, 2.875, 2, 0.45">
+      <DataClassMoniker Name="/contextoTallerDataContext/usuariosYcontrasena" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49dcf30a-cf72-417a-92bb-09e86aeb70f0" absoluteBounds="2.015, 3.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
